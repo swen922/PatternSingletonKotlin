@@ -24,6 +24,8 @@ class King {
 
 }
 
+/** Одиночка, также известен как: Singleton */
+
 fun main(args : Array<String>) {
     var k1 = King.getInstance()
     println(k1)
